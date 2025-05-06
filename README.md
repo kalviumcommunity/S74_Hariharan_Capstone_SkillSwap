@@ -43,70 +43,90 @@ By the end of this project, the application will be ready for deployment and abl
 - Outline features and finalize the initial architecture.
 - Set up the development environment for both frontend and backend.
 
+
 ### Day 3-6:  Backend Setup
+
 - Initialize the backend with Node.js and Express.
 - Set up MongoDB database.
 - Implement basic server structure with RESTful API endpoints.
 - Create models for Users and Skills.
 - Set up environment variables (eg., for database connection).
 
-### Day 7-11: Authentication (JWT)
+
+### Day 6-8: Authentication (JWT)
+
 - Implement user authentication using JWT (JSON Web Tokens).
 - Set up user registration and login endpoints.
 - Test the authentication flow (registration, login, and token generation).
 - Implement protected routes to secure certain endpoints.
 
-### Day 12-14: User Profile and Skill Listing
+### Day 9-11: User Profile and Skill Listing
+
 - Design the user profile structure: name, skills, bio, etc.
 - Implement the ability to add, edit, and remove skills, bio, etc.
 - Design and create the profile page UI in React.
 - Implement API endpoints to handle profile data and skill management.
 
-### Day 15-18: Frontend Setup and Routing
+
+### Day 11-15: Frontend Setup and Routing
+
 - Set up React and React Router for page naviagation.
 - Create necessary components (Home, Profile, Dashboard, etc.).
 - Start building the homepage with a search bar for skills.
 
-### Day 19-22: Skill Search and Browse
+### Day 16-20: Skill Search and Browse
+
 - Design the skill search and filter UI.
 - Implement API to search for skills and filter results.
 - Display search results on the forntend.
 - Implement pagination if needed for search results.
 
-### Day 23-25: Messaging System Implemention
+
+### Day 21-27: Messaging System Implemention
+
+
 - Design the messaging UI for users to communicate.
 - Set up backend routes to handle messages between users.
 - Implement real-time messaging (if possible, using socket.io or similar technology).
 - Add message notifications to alert user about new messages.
 
-### Day 26-30: Dashboard and Profile Management
+### Day 28-34: Dashboard and Profile Management
+
 - Implement the user dashboard to display owned skills and ongoing messages.
 - Allow user to edit their profile, manage skills, and see activity.
 - Add functionality to view other users profiles.
 - Make the dashboard responsive.
 
-### Day 31-38: User Testing and Bug Fixes 
+
+### Day 35-42: User Testing and Bug Fixes 
+
 - Test the application throughtly (frontend and backend).
 - Fix bugs and refine the UI/UX based on feedback.
 - Conduct cross-brower testing for compatibility.
 - Ensure that all features are working correctly.
 
-### Day 39-42: Deployment Prepration
+
+### Day 42-45: Deployment Prepration
+
 - Set up the deployment environment (eg., Render/ Heroku for backend, Netlify/Vercel for the forntend).
 - Deploy the frontend and backend.
 - Test the deployed version and ensure everything works as expected.
 - Ensure security best practices (eg., secure API calls, sanitizing inputs).
 
-### Day 43-45: Final Refractor and Documentation
+### Day 45-48: Final Refractor and Documentation
+
 - Refactor code for clarity and performance improvements.
 - Write final documentation for the codebase, including API documentation and project setup instructions.
 - Write a user guide explaining how to use the platform.
 
-### Day 45-48: Final Refactor and Documentation
+
+### Day 48: Final Refactor and Documentation
+
 - Conduct a final review of the project.
 - Polish the README file with detailed information about the project.
 - Add links to GitHub, deployed site, and related resources.
 - Prepare the project for submission.
+
 
 ## Conclusion:
 By following this structured plan, I am to build **SkillSwap** into a fully functional web application. Each step will focus on completing a core feature while maintaining clean code and effective project management.  This project will not only test my technical skills but also enhance my ability to work with a structred timeline.
