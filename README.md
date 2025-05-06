@@ -108,6 +108,7 @@ By the end of this project, the application will be ready for deployment and abl
 - Add links to GitHub, deployed site, and related resources.
 - Prepare the project for submission.
 
+
 ## Conclusion:
 By following this structured plan, I am to build **SkillSwap** into a fully functional web application. Each step will focus on completing a core feature while maintaining clean code and effective project management.  This project will not only test my technical skills but also enhance my ability to work with a structred timeline.
 
