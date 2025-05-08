@@ -7,6 +7,6 @@ app.use('/api',skillRoutes);
 
 const PORT = 5000;
 
-app.listen(prompt, ()=> {
+app.listen(PORT, ()=> {
   console.log(`Server running on http://localhost:${PORT}`);
 })
