@@ -1,0 +1,24 @@
+{
+  "name": "s74_hariharan_capstone_skillswap",
+  "version": "1.0.0",
+  "description": "**SkillSwap**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/S74_Hariharan_capstone_SkillSwap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/S74_Hariharan_capstone_SkillSwap/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/S74_Hariharan_capstone_SkillSwap#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
