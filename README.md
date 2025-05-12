@@ -139,3 +139,6 @@ By following this structured plan, I am to build **SkillSwap** into a fully func
 
 ```bash
 git clone https://github.com/yourusername/skillswap.git
+
+
+12-05-2025 - Added PUT endpoint for updating a skill.
