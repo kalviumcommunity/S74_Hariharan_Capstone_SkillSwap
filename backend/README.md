@@ -7,10 +7,6 @@ Organized to a seperate folder named backend, which works as the backend server.
 The backend server is live and can be accessed here:
 [SkillSwap Backend on Render]()
 
-## Available Endpoints
-- **GET** `/api/skills` - Get all skills
-- **PUT** `/api/skil
-
 
 ## 13-05-2025 (Tuesday) ->
 - Organized the backend folder (structured and modularized) with SkillSwap/

@@ -21,4 +21,4 @@ const updateUser = async (req, res) => {
   res.status(200).json(updatedUser);
 };
 
-module.exports = {getUsers, createUser, updateUser};
+module.exports = {getUser, createUser, updateUser};
