@@ -1,13 +1,22 @@
+require('dotenv').config();
 const express = require('express');
-const skillRoutes = require('./routes/skillRoutes');
+const cors = require('cors');
+const connectDB = require('./config/db');
+const userRoutes = require('./routes/userRoutes');
+
 const app = express();
+const PORT = process.env.PORT || 5000;
 
-app.use(express.json());  // added this Middleware to parse JSON in post-api
-app.use('/api',skillRoutes);
+// Middleware
+app.use(cors());
+app.use(express.json());
 
+// Routes
+app.use('/api', userRoutes);
 
-const PORT = 5000;
+// Connect to DB
+connectDB();
 
-app.listen(PORT, ()=> {
-  console.log(`Server running on http://localhost:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost: ${PORT}`);
 })

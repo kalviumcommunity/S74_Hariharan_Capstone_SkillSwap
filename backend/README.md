@@ -1,21 +1,33 @@
 # SkillSwap Backend
 
-This is the backend server for the skillSwap project, built with Node.js, Express, and MongoDB.
-
-organized to a seperate folder named backend, which works as the backend server.
+This is the backend server for the SkillSwap project, built with Node.js, Express, and MongoDB.
+Organized to a seperate folder named backend, which works as the backend server.
 
 ## Live Backend Server
 The backend server is live and can be accessed here:
-[SkillSwap Backend on Render](https://s74-hariharan-capstone-skillswap-deploy.onrender.com)
+[SkillSwap Backend on Render]()
 
 ## Available Endpoints
-
 - **GET** `/api/skills` - Get all skills
-- **POST** `/api/skills` - Add a new skill
-- **PUT** `/api/skills/:id` - Update a skill by ID
+- **PUT** `/api/skil
 
-## How to run locally
 
-```bash
-npm install
-npm run start
+## 13-05-2025 (Tuesday) ->
+- Organized the backend folder (structured and modularized) with SkillSwap/
+├── backend/
+│   ├── controllers/
+│   │   └── userController.js
+│   ├── models/
+│   │   └── userModel.js
+│   ├── routes/
+│   │   └── userRoutes.js
+│   ├── middlewares/
+│   │   └── errorMiddleware.js
+│   ├── config/
+│   │   └── dbConfig.js
+│   ├── utils/
+│   │   └── responseHandler.js
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+├── README.md
