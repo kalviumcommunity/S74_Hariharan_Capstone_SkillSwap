@@ -29,7 +29,11 @@ The backend server is live and can be accessed here:
 ├── README.md
 
 # 15-05-2025
-## Live API:
+
+## Live API: 
+Base URL: [https://s74-hariharan-capstone-skillswap-deployed.onrender.com](https://s74-hariharan-capstone-skillswap-deployed.onrender.com)
+
+
 ### Endpoints:
 - `GET /api/users/` -> Fetch all users
 - `POST /api/creatUser` -> Create a new user
