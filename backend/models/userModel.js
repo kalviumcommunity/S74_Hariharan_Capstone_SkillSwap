@@ -10,11 +10,14 @@ const userSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
-  skills: {
-    type: [String],
-    default: [],
-  },
+  skills:[
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: 'Skill'
+    }
+  ]
 }, {
   timestamps: true,
 });
+
 module.exports = mongoose.model('User', userSchema);

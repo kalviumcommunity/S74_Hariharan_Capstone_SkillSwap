@@ -28,7 +28,7 @@ The backend server is live and can be accessed here:
 │   └── package.json
 ├── README.md
 
-# 15-05-2025
+## 15-05-2025
 
 ## Live API: 
 Base URL: [https://s74-hariharan-capstone-skillswap-deployed.onrender.com](https://s74-hariharan-capstone-skillswap-deployed.onrender.com)
@@ -40,3 +40,20 @@ Base URL: [https://s74-hariharan-capstone-skillswap-deployed.onrender.com](https
 - `PUT /api/users/:id` -> Update an existing user
 
 Connected Database using MongoDB and whitelisted the Ip.
+
+## 16-05-2025
+Implemented relationships between entities.
+It is crucial for building a scalable and well-structured backend.
+
+1.  User -> Skill: A user has multiple skills (One-to-Many).
+
+2.  User -> Swap Request: A user can send and recieve multiple swap requests (one-to-Many).
+
+3.  Swap Request -> User: A swap request is linked to two users (Many-to-One or Many-to-Many).
+
+### Folder Structure
+backend/
+|-- models/
+|  |-- userModel.js
+|  |-- skillModel.js
+|  |-- swapRequestModel.js
