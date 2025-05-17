@@ -1,8 +1,9 @@
 const User = require('../models/userModel');
+const Skill = require('../models/skillModel');
 
 const getUser = async (req, res) => {
   try{
-    const users = await User.find();
+    const users = await User.find().populate('skills');
     res.status(200).json(users);
   } catch (error){
     res.status(500).json({message: error.message});
@@ -18,7 +19,16 @@ const createUser = async (req, res) => {
 
   try {
     const newUser = await User.create({name, email, skills});
-    return res.status(201).json(newUser);
+
+    if(skills && skills.length > 0) {
+      const skillObjects = skills.map(skill => ({name: skill, user: newUser._id}));
+      const createdSkills = await Skill.insertMany(skillObjects);
+      newUser.skills = createdSkills.map(skill => skill._id);
+      await newUser.save();
+
+    }
+
+    return res.status(201).json(await User.findById(newUser._id).populate('skills'));
   } catch (error){
     res.status(500).json({message: error.message});
   }
