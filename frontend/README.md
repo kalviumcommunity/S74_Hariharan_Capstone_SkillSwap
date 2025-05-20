@@ -24,3 +24,34 @@ Initialized React app with vite.
 
 ### Deployment Link
 https://tubular-snickerdoodle-145386.netlify.app/
+
+### 20-05-2025
+
+##  Tech Stack
+- [React]
+- [Vite]
+- [Tailwind CSS]
+- [Axios]
+- [Node.js + Express... (backend)]
+
+
+## 📂 Folder Structure
+
+frontend/
+├── public/
+│ └── index.html
+├── src/
+│ ├── api/
+│ │ └── api.js # Axios API calls
+│ ├── components/
+│ │ ├── Navbar.jsx # (optional component)
+│ │ └── UserCard.jsx # User display card
+│ ├── pages/
+│ │ ├── HomePage.jsx # Homepage with all users
+│ │ └── UserProfilePage.jsx # (optional for future)
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── package.json
+├── vite.config.js
+└── node_modules/
